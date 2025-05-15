@@ -1,6 +1,6 @@
 body {
-  background-color: #fffff;
-  color: #00000; 
+  background-color: #ffffff;
+  color: #000000; 
 }
 .section1{
   display: flex;
@@ -120,7 +120,7 @@ list-style-position: inside;
 border-style: none;
 border-width: 2px;
 border-radius: 10px;
-border-color: #ffffff
+border-color: #ffffff;
 padding: 2px;
 margin: 2px;
 background-color: #1e90ff;
@@ -149,4 +149,16 @@ li {
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+}
+
+#services {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: auto;
+  gap: 10px;
+  gap: 10px 20px; 
+  row-gap: 10px;
+  column-gap: 20px;
 }
